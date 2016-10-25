@@ -15,3 +15,9 @@ call vundle#begin()
 "
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
+
+" opciones para vim-latex
+"
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor='latex'
+
