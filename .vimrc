@@ -15,7 +15,7 @@ call vundle#begin()
 "
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-
+call vundle#end()
 " opciones para vim-latex
 "
 set grepprg=grep\ -nH\ $*
